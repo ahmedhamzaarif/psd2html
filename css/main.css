@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* bootstrap icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+#header{
+    position: absolute;
+    color: hsl(0, 0%, 10%)
+}
+.navbar{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.active a.nav-link{
+ background-color: royalblue;
+ color: white !important;
+}
+a.nav-link:hover{
+    background-color: royalblue;
+    color: white !important;
+   }
+.header-transparent{
+    background: transparent;
+}
+#header{
+    width: 100%;
+}
+.carousel-control-prev-text, .carousel-control-next-text{
+    font-weight: bold;
+}
+.carousel-control-prev-text:hover, .carousel-control-next-text:hover{
+ background-color: royalblue;
+ padding: 0.5rem;
+}
+.carousel-inner{
+    opacity: 0.4;
+    background-size: cover;
+}
+#hero{
+    height:90%;
+}
+.carousel-caption{
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+#cards .card-img-top{
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
+    align-self: center;
+}
+#cards{
+    margin: 5rem;
+}
+#cards .card{
+    margin-top: -10rem;
+    padding-top: -5rem;
+    background-color: hsla(197, 48%, 65%, 0.815);
+}
+#cards .card-title{
+    font-weight: bold;
+}
+#cards .card-img-top{
+    height: 100px;
+    padding-left: 2rem;
+}
+#footer{
+    background-color: darkorchid;
+    color: white;
+}
+.ft-img{
+    color:blue;
+    text-align: center;
+    padding: 2rem;
+}
+.ft-txt{
+    padding-bottom: 2rem;
+}
+.hero-txt{
+    font-size: 2rem;
+}
+#h-txt a{
+    color:blue;
+}
+#h-txt a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+#features{
+    background-image: url('../images/bg.jpg');
+    background-size: 100%;
+    /* opacity: 0.5; */
+}
+#features .card{
+    padding-top: 15px;
+}
+#features .card-title{
+    font-size: small;
+    font-weight: bold;
+}
+#features .card-text{
+    font-size: smaller;
+    font-weight: lighter;
+}
+#features .card-img-top{
+    height: 30px;
+    color: purple;
+}
+#features .card{
+    border: 0ch;
+}
+#j-col p{
+    font-size: smaller;
+    padding-top: 0.5rem;
+}
+.j-txt{
+    font-size: 1.5rem;
+}
+.btn-purple{
+    background-color: purple;
+    color: white;
+}
+.btn-gray{
+    background-color: lightgrey;
+}
+.btn-purple:hover{
+    background-color: purple;
+    font-weight: bolder;
+    color: white;
+}
+.btn-gray:hover{
+    background-color: gray;
+    font-weight: bolder;
+}
+#j-img{
+    width: 100%;
+}
+#reviews{
+    background-image: url('../images/bg.jpg');
+    background-size: 100%;
+}
+#reviews .card{
+    padding-top: 15px;
+}
+#reviews .card-title{
+    font-size: small;
+    font-weight: bold;
+}
+#reviews .card-text{
+    font-size: smaller;
+    font-weight: lighter;
+}
+#reviews .card-img-top{
+    height: 30px;
+    color: purple;
+}
+#reviews .card{
+    border-radius: 3%;
+    margin: 1rem;
+}
+#reviews .customer{
+    color: gray;
+    font-size: small;
+}
+#reviews .cName{
+    color: purple;
+    font-size: small;
+    font-weight: bolder;
+}
+#reviews .card-img-top{
+    /* text-align: center; */
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: -20%;    
+}
+#clients h6{
+    text-transform: uppercase;
+    font-size: small;
+}
+#clients h3{
+    font-weight: bolder;
+}
+#clients img{
+    height: 250px;
+}
+#blog{
+    background-color: lightblue;
+}
+#blog img{
+    background-size: 0%;
+}
+.author img{
+    border-radius: 100%;
+    height: 50px;
+}
+#blog #img img{
+    height: 500px;
+}
+.post img{
+    height: 80px;
+    margin-top: 1rem;
+}
+.post-title{
+    font-size: medium;
+    font-weight: bold;
+}
